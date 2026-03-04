@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Raul Germano</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <h1 class="logo">Raul Germano</h1>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sobre.html" class="nav-link">Sobre Mim</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfólio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="servicos.html" class="nav-link">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contato.html" class="nav-link active">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <main class="container">
+        <section class="contato-section">
+            <h1 class="section-title">Entre em Contato</h1>
+            <p class="contato-intro">
+                Tem um projeto em mente ou quer conversar sobre oportunidades? 
+                Entre em contato comigo através do formulário abaixo. 
+                Retorno o contato o mais breve possível!
+            </p>
+
+            <div class="contato-content">
+                <!-- Formulário de Contato -->
+                <div class="form-container">
+                    <form class="contato-form">
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="seu.email@exemplo.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="6" placeholder="Digite sua mensagem aqui..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-submit">Enviar Mensagem</button>
+                    </form>
+                </div>
+
+                <!-- Informações de Contato -->
+                <div class="info-contato">
+                    <h3>Informações de Contato</h3>
+
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <div class="info-text">
+                            <strong>E-mail</strong><br>
+                            raulgermanoduarte@gmail.com
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">📱</div>
+                        <div class="info-text">
+                            <strong>Telefone</strong><br>
+                            12 992480447
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-text">
+                            <strong>Localização</strong><br>
+                            São José dos Campos, SP
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">💼</div>
+                        <div class="info-text">
+                            <strong>Profissão</strong><br>
+                            Estagiário de TI - 1 ano de experiência com Banco de Dados Relacional
+                        </div>
+                    </div>
+
+                    <!-- Links para Redes Sociais -->
+                    <div class="social-links">
+                        <h4>Redes Sociais</h4>
+                        <div class="social-icons">
+                            <a href="https://github.com/Raul-Germano-Rosendo" target="_blank" class="social-link" title="GitHub">
+                                <span class="social-icon">🐙</span>
+                                GitHub
+                            </a>
+                            <a href="https://www.linkedin.com/in/raul-germano-rod/" target="_blank" class="social-link" title="LinkedIn">
+                                <span class="social-icon">💼</span>
+                                LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nota sobre o formulário -->
+            <div class="form-note">
+                <p><strong>Nota:</strong> Este formulário é apenas uma demonstração visual. 
+                Para funcionalidades reais, seria necessário implementar backend com PHP, Node.js ou similar.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>&copy; 2026 Raul Germano. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
