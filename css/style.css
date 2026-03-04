@@ -780,8 +780,41 @@ body {
         grid-template-columns: 1fr;
     }
 
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .servicos-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contato-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .diferenciais-grid {
+        grid-template-columns: 1fr;
+    }
+
     .section-title {
         font-size: 1.5rem;
+    }
+
+    .sobre-content {
+        padding: 1rem;
+    }
+
+    .info-contato {
+        padding: 1.5rem;
+    }
+
+    .form-container {
+        padding: 1.5rem;
     }
 }
 
